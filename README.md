@@ -1,159 +1,191 @@
 ![Logo](/govbase_logo.png)
 
-Govbase is an open, crowdsourced database of projects and tools for the governance of online communities.
+**Govbase** is an open, crowdsourced database of projects and tools for the governance of online communities.
 
-- [**Tables**](#tables) 
-- [**Accessing the data**](#accessing-the-data)
-- [**Getting involved**](#getting-involved)
+- [The data](#the-data) 
+- [Accessing the data](#accessing-the-data)
+- [Getting involved](#getting-involved)
 
-## Tables
+## The data
 Govbase is organized into tables of interlinked data to support a variety of projects at Metagov, which can be navigated by the Airtable tabs. For each table, views are defined to examine various properties of the table.
 
-| Table                         | Description                                                       | Examples                                           |
-|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------|
-| [Projects](#projects)         | Platforms, software, and research in online governance            | Discourse, SourceCred, Open Collective, Aragon     |
-| [Organizations](#organizations)                 | Organizations and communities that develop, use, or fund projects | Enspiral, MetaGame, Knight Foundation              |
-| [Structures](#structures)                    | Concepts and institutions from social science; source of labels   | Quadratic voting, democracy, online community, DAO |
-| [Instances](#instances)                     | Junction table from relation "Organization uses project"          | "The Metagovernance Project uses Govbase"          |
-| [Cases](#cases)                         | Events, experiments, and lived experiences of online communities  | The DAO hack, Gamergate vs Wikipedia               |
-| [Social Ontologies](#cases)             |                                                                   |                                                    |
-| [Documents](#cases)                     | Primary-source documents of project and organizations governance  |                                                    |
-| [Constitutional Model](#constitutional-model)          | Model of web3 project and organization governance documents       |                                                    |
-| [Parameters](#parameters)                    | Endpoints and parameters for a platform or service configuration  |                                                    |
-| [Parameter Model](#parameter-model)               | Model of parameter patterns observed in Parameters table          |                                                    |
-| [Cryptogov Survey](#cryptogov-survey)              | Primary data from the Cryptogov governance assessment             | Survey responses of projects or organizations      |
-| [Cryptogov Metrics](#cryptogov-metrics)             | Metrics identified for the Cryptogov governance assessment        |                                                    |
-| [Cryptopolitical Typology Quiz](#cryptopolitical-typology-quiz) | Primary data from the Cryptopolitical Typology Quiz               | Anonymized survey responses of individuals         |
-| [Entity-Decision Model](#entity-decision-model)         | Entities and decisionmaking processes involved in a project       |                                                    | 
-| [Contract Objects](#contract-objects)              | Solidity smart contract objects for DAO governance frameworks     |                                                    |
-| [Contract Parameters](#contract-parameters)           | Solidity smart contract parameters for DAO governance frameworks  |                                                    |
-| [Metaeth Observations](#metaeth-observations)          | (Placeholder for Metaethnograpy project)                          | (TBD)                                              |
+| Table | Description                                                       | Examples                                           | Link |
+|-------------------------------|-------------------------------------------------------------------|----------------------------------------------------|------|
+| [Projects](#projects) | Platforms, software, and research in online governance | Discourse, SourceCred, Open Collective, Aragon     | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblvk3EFzcoCFvXXi/viwTisATNcua7os4y) |
+| [Organizations](#organizations) | Organizations and communities that develop, use, or fund projects | Enspiral, MetaGame, Knight Foundation | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblNFm5I8KotgPNNS/viwEaKcLbdb2T5b3Q) |
+| [Structures](#structures) | Concepts and institutions from social science; source of labels | Quadratic voting, democracy, online community, DAO | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblm1Lfumna1vlGaQ/viwyMnier3mnrvcHX) |
+| [Instances](#instances) | Junction table from relation "Organization uses project" | "The Metagovernance Project uses Govbase" | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbl5H7mz84HXMIvuy/viwIQ1hXjEB0kPW07) |
+| [Cases](#cases) | Events, experiments, and lived experiences of online communities  | The DAO hack, Gamergate vs Wikipedia | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblqYoJJKkPnteCbP/viwPOnvn9Xd73A5dW) |
+| [Social Ontologies](#cases) |  |  | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblXLaQeoKygb4ais/viw3rNQQfK1S6ipfe) |
+| [Documents](#cases) | Primary-source documents of project and organizations governance  |  | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblh8o2b7sNPq2yGz/viwUEtsRJkkp5L1P8) |
+| [Constitutional Model](#constitutional-model) | Model of web3 project and organization governance documents |  |  [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbltBIhUFqZE1tfle/viw6J9mO9wrlSh3cg) |
+| [Parameters](#parameters) | Endpoints and parameters for a platform or service configuration |  | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblp5kVnv5P2yhppZ/viwjyRrh7xEng69XD) |
+| [Parameter Model](#parameter-model) | Model of parameter patterns observed in Parameters table |  | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblPbKLkWeRRriBDK/viwgkNVEaFKkXXPJG) | 
+| [Cryptogov Survey](#cryptogov-survey) | Primary data from the Cryptogov governance assessment | Survey responses of projects or organizations |  [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblYWk1xdCxhhohgL/viwbpL2ZQQimvsGtc) |
+| [Cryptogov Metrics](#cryptogov-metrics) | Metrics identified for the Cryptogov governance assessment |  | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbl1Zq9LLgpcW7EZs/viwYnpB7331O6AHhL) |
+| [Cryptopolitical Typology Quiz](#cryptopolitical-typology-quiz) | Primary data from the Cryptopolitical Typology Quiz | Anonymized survey responses of individuals | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblvwbt4KFm8MOSUQ/viwfF8wIITUoDzNEn) |
+| [Entity-Decision Model](#entity-decision-model) | Entities and decisionmaking processes involved in a project |  |  [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbllAED0vCyzbTiw8/viwySREZ6xNsVocRw) | 
+| [Contract Objects](#contract-objects) | Solidity smart contract objects for DAO governance frameworks |  |  [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbl0kGdUES0KtBXlH/viwYBzuLn6GtrmVcn) |
+| [Contract Parameters](#contract-parameters)  | Solidity smart contract parameters for DAO governance frameworks  |  |  [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbldPB1uhZot8oVT6/viw5mRJDJmAVT41Mo) |
+| [Metaeth Observations](#metaeth-observations) | (Placeholder for Metaethnograpy project) | (TBD) |  |
 
 ### Projects
 
 Platforms, software, and research in online governance
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All projects                 |
+Available views: 
+- **All records**
+- **Projects by development status**
+- **Open-source software governance**
+- **Open-source software**
+- **DAO ecosystem projects**
+- **Policies**
+- **Metagov projects**
+
+To add a new project, fill out the [Airtable form](https://airtable.com/shr1BcXojViDgTOdX). 
 
 ### Organizations
 
 Organizations and communities that develop, use, or fund projects
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All organizations            |
+Available views: 
+- **All records**
+- **DAOs**
+- **How open-source is your infrastructure?**
+- **Funders in online governance**
+- **Archaeology**
+- **Metagov working groups**
+
+To add a new organization, fill out the [Airtable form](https://airtable.com/shrH8YqwrQMTrFUOu). 
 
 ### Structures
 
 Concepts and institutions from social science; source of labels
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All structures               |
+Available views: 
+- **All records**
+- **Measurable variables**
+- **Building blocks of governance, by ontology**
+- **Dada exercise**
+- **Entities**
+- **Decision processes**
+- **Staging for export to Kumu**
 
 ### Instances
 
 Junction table from relation "Organization uses project" 
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All instances                |
+Available views: 
+- **All records**
+- **Metagov instances**
 
 ### Cases
 
 Events, experiments, and lived experiences of online communities
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All cases                    |
+Available views: 
+- **All records**
+- **DeFi fails**
+- **Online governance cases**
+- **Comparing online and offline governance**
 
 ### Social Ontologies
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All social ontologies        |
+Available views: 
+- **All records**
 
 ### Documents
 
 Primary-source documents of project and organizations governance
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All documents                |
+Available views: 
+- **All records**
+- **Licenses**
+- **Constitutions**
+
+To add a new organization, fill out the Airtable form.
 
 ### Constitutional Model
 
 Model of web3 project and organization governance documents
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All constitutions            |
+Available views: 
+- **All records**
 
 ### Parameters
 
 Endpoints and parameters for a platform or service configuration
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All parameters               |
+Available views: 
+- **All records**
+- **Pol.is -> Voting**
+- **Unique parameter names**
 
 ### Parameter Model
 
 Model of parameter patterns observed in Parameters table
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All parameter models         |
+Available views: 
+- **All records**
+- **Pol.is -> Voting**
 
 ### Cryptogov Survey
 
 Primary data from the Cryptogov governance assessment
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All survey responses         |
+Available views: 
+- **All records**
+- **Relevant entities**
+- **Projects by governance era**
 
 ### Cryptogov Metrics
 
 Metrics identified for the Cryptogov governance assessment
-
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All metrics                  |
+Available views: 
+- **All records**
 
 ### Cryptopolitical Typology Quiz
 
 Primary data from the Cryptopolitical Typology Quiz
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All survey responses         |
+Available views: 
+- **All records**
 
 ### Entity-Decision Model
 
 Entities and decisionmaking processes involved in a project
-
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All entity-decision relations|
+Available views: 
+- **All records**
+- **Flowcharts**
 
 ### Contract Objects
 
 Solidity smart contract objects for DAO governance frameworks
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All smart contract objects   |
+Available views: 
+- **All records**
+- **Keyword-coded records**
+- **Contracts**
+- **Constructor functions**
+- **External and public functions**
+- **Getters**
+- **Setters**
+- **Structs**
+- **Enums**
+- **Modifiers**
+- **Events**
 
 ### Contract Parameters
 
 Solidity smart contract parameters for DAO governance frameworks
 
-| View          | Description                  |
-|---------------|------------------------------|
-| All records   | All smart contract params    |
+Available views: 
+- **All records**
+- **Keyword-coded records**
+- **Public variables**
+- **Construction/initialization variables**
+- **Function parameters**
+- **Struct members**
 
 ### Metaeth Observations
 
