@@ -1,3 +1,5 @@
+![Logo](/govbase_logo.png)
+
 Govbase is an open, crowdsourced database of projects and tools for the governance of online communities.
 
 - [**Tables**](#tables) 
