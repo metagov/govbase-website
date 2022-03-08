@@ -1,11 +1,8 @@
-# Govbase
 Govbase is an open, crowdsourced database of projects and tools for the governance of online communities.
 
-[**Tables**](#tables)
-
-[**Accessing the data**](#accessing-the-data)
-
-[**Getting involved**](#getting-involved)
+- [**Tables**](#tables) 
+- [**Accessing the data**](#accessing-the-data)
+- [**Getting involved**](#getting-involved)
 
 ## Tables
 Govbase is organized into tables of interlinked data to support a variety of projects at Metagov, which can be navigated by the Airtable tabs. For each table, views are defined to examine various properties of the table.
@@ -32,11 +29,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Projects
 
+Platforms, software, and research in online governance
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All projects                 |
 
 ### Organizations
+
+Organizations and communities that develop, use, or fund projects
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -44,17 +45,23 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Structures
 
+Concepts and institutions from social science; source of labels
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All structures               |
 
 ### Instances
 
+Junction table from relation "Organization uses project" 
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All instances                |
 
 ### Cases
+
+Events, experiments, and lived experiences of online communities
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -68,11 +75,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Documents
 
+Primary-source documents of project and organizations governance
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All documents                |
 
 ### Constitutional Model
+
+Model of web3 project and organization governance documents
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -80,11 +91,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Parameters
 
+Endpoints and parameters for a platform or service configuration
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All parameters               |
 
 ### Parameter Model
+
+Model of parameter patterns observed in Parameters table
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -92,11 +107,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Cryptogov Survey
 
+Primary data from the Cryptogov governance assessment
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All survey responses         |
 
 ### Cryptogov Metrics
+
+Metrics identified for the Cryptogov governance assessment
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -104,11 +123,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Cryptopolitical Typology Quiz
 
+Primary data from the Cryptopolitical Typology Quiz
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All survey responses         |
 
 ### Entity-Decision Model
+
+Entities and decisionmaking processes involved in a project
 
 | View          | Description                  |
 |---------------|------------------------------|
@@ -116,11 +139,15 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 ### Contract Objects
 
+Solidity smart contract objects for DAO governance frameworks
+
 | View          | Description                  |
 |---------------|------------------------------|
 | All records   | All smart contract objects   |
 
 ### Contract Parameters
+
+Solidity smart contract parameters for DAO governance frameworks
 
 | View          | Description                  |
 |---------------|------------------------------|
