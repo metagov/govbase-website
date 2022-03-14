@@ -1,6 +1,6 @@
 ![Logo](/govbase_logo.png)
 
-**Govbase** is an open, crowdsourced database of projects and tools for the governance of online communities.
+**Govbase** is a warehouse of qualitative and quantitative data sets covering the governance of online communities maintaned by [Metagov](https://metagov.org).
 
 - [The data](#the-data) 
 - [Accessing the data](#accessing-the-data)
