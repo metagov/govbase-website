@@ -11,7 +11,7 @@ Govbase is organized into tables of interlinked data to support a variety of pro
 
 | Table | Description                                                       | Examples                                           | Link |
 |-------------------------------|-------------------------------------------------------------------|----------------------------------------------------|------|
-| [Projects](./projects.html) | Platforms, software, and research in online governance | Discourse, SourceCred, Open Collective, Aragon     | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblvk3EFzcoCFvXXi/viwTisATNcua7os4y) |
+| [Projects](./pages/projects.html) | Platforms, software, and research in online governance | Discourse, SourceCred, Open Collective, Aragon     | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblvk3EFzcoCFvXXi/viwTisATNcua7os4y) |
 | [Organizations](#organizations) | Organizations and communities that develop, use, or fund projects | Enspiral, MetaGame, Knight Foundation | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblNFm5I8KotgPNNS/viwEaKcLbdb2T5b3Q) |
 | [Structures](#structures) | Concepts and institutions from social science; source of labels | Quadratic voting, democracy, online community, DAO | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tblm1Lfumna1vlGaQ/viwyMnier3mnrvcHX) |
 | [Instances](#instances) | Junction table from relation "Organization uses project" | "The Metagovernance Project uses Govbase" | [Govbase](https://airtable.com/shrgnUrj0dqzZDsOd/tbl5H7mz84HXMIvuy/viwIQ1hXjEB0kPW07) |
