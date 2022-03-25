@@ -12,9 +12,9 @@ To add a new project, fill out the [Airtable form](https://airtable.com/shr1BcXo
 
 ## Available views
 - **All records**
-- **Linked to: Cases**: projects involved in an [online governance case](./docs/cases)
-- **Linked to: Cryptogov Survey**: projects that have completed the [Cryptogov survey](./docs/cryptogov)
-- **Linked to: Entity-Decision Model**: projects with a defined [Entity-Decision Model](./docs/ed-model)
+- **Linked to: Cases**: projects involved in an [online governance case](../cases)
+- **Linked to: Cryptogov Survey**: projects that have completed the [Cryptogov survey](../cryptogov)
+- **Linked to: Entity-Decision Model**: projects with a defined [Entity-Decision Model](../ed-model)
 - **By development status**: grouped by whether the project is a work in progress, active, inactive, or dead
 - **Open-source software**: projects labeled open-core or open-source
 - **DAO ecosystem projects**: projects that create or facilitate Decentralized Autonomous Organizations (DAOs)
