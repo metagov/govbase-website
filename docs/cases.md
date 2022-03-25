@@ -10,6 +10,9 @@ Events, experiments, and lived experiences of online communities
 
 Available views: 
 - **All records**
-- **DeFi fails**
-- **Online governance cases**
-- **Comparing online and offline governance**
+- **Linked to: Projects**
+- **Linked to: Organizations**
+- **Online governance (Metagov)**: curated for Metagov-affiliated projects
+- **Online governance (Participedia)**: Sourced from Participedia
+- **DeFi fails (RMIT)**: Curated by RMIT
+- **Comparing online and offline governance**: Grouped by online, offline, or both

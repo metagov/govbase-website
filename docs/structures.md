@@ -10,9 +10,10 @@ Concepts and institutions from social science; source of labels
 
 Available views: 
 - **All records**
-- **Measurable variables**
-- **Building blocks of governance, by ontology**
-- **Dada exercise**
-- **Entities**
-- **Decision processes**
-- **Staging for export to Kumu**
+- **Linked to: Projects**
+- **Linked to: Organizations**
+- **Building blocks of governance, by ontology**: all subclasses of "Governance structure"
+- **Entities**: all subclasses of "Entity"
+- **Decision processes**: all subclasses of "Governance process"
+- **Measurable variables**: all subclasses of "Measurement variable"
+- **Staging for export to Kumu**: Used to visualize relationships between structures

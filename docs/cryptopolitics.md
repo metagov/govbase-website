@@ -10,3 +10,4 @@ Primary data from the Cryptopolitical Typology Quiz
 
 Available views: 
 - **All records**
+- **Survey responses**
