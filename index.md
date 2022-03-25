@@ -12,7 +12,7 @@ Govbase is maintained by [Metagov](https://metagov.org) and supports a variety o
 ### Overview
 Govbase is organized into [tables](https://en.wikipedia.org/wiki/Table_(database)) of related and interlinked data. Navigate between tables with the **Airtable tabs**. 
 
-For each table, Metagov has curated [views](https://en.wikipedia.org/wiki/View_(SQL)) to look at subsets of the data. Navigate between views with the **Airtable sidebar**. Each table has an **"All records"** view with every available row and column for the data set, in addition to filtered, sorted, and grouped views. If you don't see the view you need, let us know and we can help you create it!
+For each table, Metagov has curated [views](https://en.wikipedia.org/wiki/View_(SQL)) to look at subsets of the data. Navigate between views with the **Airtable sidebar**. Each table has an "All records" view with every available row and column for the data set, in addition to filtered, sorted, and grouped views. If you don't see the view you need, let us know and we can help you create it!
 
 ### Tables
 
@@ -41,7 +41,7 @@ Click on the table name for further information. Click on the Govbase link to se
 ## Getting involved
 Govbase is a crowdsourced, community effort. We’re always looking for more editors, contributors, and research partners. If you would like to do research with Govbase, contribute data, or if you have an existing mapping project that you’d like to integrate, please get in touch!
 
-If you see that Govbase is missing a project, organization, or document you think is relevant to the governance of online communities, **contribute to Govbase** by adding a new entry! Fill out a submission form:
+If you see that Govbase is missing a project, organization, or document you think is relevant to the governance of online communities, **contribute to Govbase by adding a new entry!** Fill out a submission form:
 - for a new [project](https://airtable.com/shr1BcXojViDgTOdX)
 - for a new [organization](https://airtable.com/shrH8YqwrQMTrFUOu)
 - for a new [governance document](https://airtable.com/shrYcazDD1l2xG65m) (you may need to submit a new project or organization if those relevant to the document are not yet in Govbase)
