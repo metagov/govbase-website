@@ -10,5 +10,5 @@ Primary-source documents of project and organizations governance
 
 Available views: 
 - **All records**
+- **Linked in: Constitutional Model**
 - **Licenses**
-- **Constitutions**

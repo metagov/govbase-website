@@ -12,11 +12,12 @@ Primary data from the Cryptogov governance assessment
 
 Available views: 
 - **All records**
-- **Relevant entities**
+- **Survey responses**
 - **Projects by governance era**
 
 ## Cryptogov Metrics
 
 Metrics identified for the Cryptogov governance assessment
+
 Available views: 
 - **All records**
