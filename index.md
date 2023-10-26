@@ -39,7 +39,7 @@ Click on the table name for further information. Click on the Govbase link to se
 | Metaeth Observations | Placeholder for Metaethnograpy project | TBD |  |
 
 ## Getting involved
-Govbase is a crowdsourced, community effort. We’re always looking for more editors, contributors, and research partners. If you would like to do research with Govbase, contribute data, or if you have an existing mapping project that you’d like to integrate, please get in touch!
+Govbase is a crowdsourced, community effort. We’re always looking for more editors, contributors, and research partners. The best way to get involved and learn more is to just join the [Metagov Slack](https://metagov.pubpub.org/join), and come to the #govbase-labs channel where we hang out. If you would like to do research with Govbase, contribute data, or if you have an existing mapping project that you’d like to integrate, please also feel free to get in touch with josh@metagov.org.
 
 If you see that Govbase is missing a project, organization, or document you think is relevant to the governance of online communities, **contribute to Govbase by adding a new entry!** Fill out a submission form:
 - for a new [project](https://airtable.com/shr1BcXojViDgTOdX)
