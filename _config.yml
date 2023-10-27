@@ -1,7 +1,7 @@
 theme: minima
 title: Govbase
 description: An open database of online governance projects, organizations, and concepts
-include: [docs]
+# include: [docs]
 
 # Theme-specific settings
 
